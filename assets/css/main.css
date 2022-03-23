@@ -3212,6 +3212,46 @@ body.is-preload .spotlights > section > .content > .inner {
 
 /* Table */
 
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0px 40px;
+}
+
+.card {
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  margin: 18px 10px 40px;
+  transition: transform 0.2s ease-in;
+}
+
+.card h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: black;
+  text-align: center;
+  font-weight: normal;
+}
+
+.card:hover {
+  transform: translateY(-15px);
+}
+
+/* this is the default style code */
 .table-wrapper {
   -webkit-overflow-scrolling: touch;
   overflow-x: auto;
